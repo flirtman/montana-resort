@@ -1,0 +1,60 @@
+.video {
+    background-image: url("../../media/705-Montana-Pool-5.jpg");
+    background-color: rgba(0,0,0,0.8);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+
+
+    .container {
+        color: white;
+        min-height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 24px;
+        max-width: 600px;
+        text-align: center;
+    }
+
+    img {
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+    }
+}
+
+.video-modal {
+    z-index: 2;
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.95);
+
+    .video-modal-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 8px;
+
+        img {
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            margin-right: 38px
+        }
+    }
+
+    iframe {
+        width: 800px;
+        max-width: 90%;
+        margin: auto;
+        aspect-ratio: 16 / 9;
+    }
+}

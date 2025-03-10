@@ -1,2 +1,1 @@
-# montana-resort
-Montana Resort - Vanier College - Website Creation &amp; Design - Assignment #1 - Block #2
+![Banner](https://raw.githubusercontent.com/flirtman/montana-resort/refs/heads/main/media/preview.png)

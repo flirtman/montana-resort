@@ -1,0 +1,16 @@
+.main-footer {
+    background-color: #000;
+    color: var(--primary-color-light);
+    padding: 24px;
+    text-align: center;
+}
+
+.top-scroller {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    width: 60px;
+    height: 60px;
+    display: none;
+    cursor: pointer;
+}
